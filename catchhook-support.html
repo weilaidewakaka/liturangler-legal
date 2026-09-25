@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CatchHook Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0; padding: 0 20px 60px;
+    background: #F5F7F9; color: #22303f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header.site { padding: 32px 0 8px; }
+  header.site a { color: #5869A8; text-decoration: none; font-weight: 600; }
+  .langnav { display: flex; gap: 8px; margin: 24px 0 32px; flex-wrap: wrap; }
+  .langnav a {
+    padding: 6px 14px; border-radius: 999px; background: #fff;
+    border: 1px solid #d8dee5; color: #22303f; text-decoration: none; font-size: 14px;
+  }
+  section.lang { padding: 32px 0; border-top: 1px solid #d8dee5; }
+  section.lang:first-of-type { border-top: none; }
+  h1 { font-size: 1.6em; margin-bottom: 4px; }
+  h2 { font-size: 1.25em; margin-top: 1.6em; }
+  h3 { font-size: 1.05em; margin-top: 1.4em; }
+  h4 { font-size: 1em; margin-top: 1.2em; }
+  a { color: #5869A8; }
+  ul, ol { padding-left: 1.4em; }
+  hr { border: none; border-top: 1px solid #d8dee5; margin: 2em 0; }
+  code, .updated { color: #66768a; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site"><a href="./index.html">LiturAngler Legal Docs</a></header>
+  <p class="updated">Last updated: 2026-09-25</p>
+  <div class="langnav">
+    <a href="#zh">中文</a>
+    <a href="#en">English</a>
+  </div>
+  <section class="lang" id="zh"><h1>鱼乐日记 用户支持</h1>
+<h2>联系我们</h2>
+<p>使用中遇到问题，或有任何建议，欢迎发邮件给我们：</p>
+<p><strong>Email:</strong> <a href="mailto:support@liturangler.com">support@liturangler.com</a></p>
+<h2>常见问题</h2>
+<h3>1. 手表状态都是些什么意思？</h3>
+<p><strong>正常</strong> ：手表与手机配对正常，APP 已安装，可以正常使用</p>
+<p><strong>未配对</strong> ：当前 iPhone 没有配对 Apple Watch。请在系统 "Watch" APP 中完成配对</p>
+<p><strong>未安装</strong> ：手表已配对，但鱼乐日记尚未安装到手表上。如果手表刚刚没电或刚关机，也可能显示此状态，充电开机后会自动恢复正常</p>
+<ul>
+<li>确认手表系统版本为 <strong>watchOS 11 或更高版本</strong>，鱼乐日记不支持更低版本</li>
+<li>通常 iPhone 安装后会自动推送到手表，如果没有自动完成，可以按以下顺序尝试</li>
+<li>将手机与手表保持在 1 米以内，等待片刻查看情况</li>
+<li>同时开启手机和手表的飞行模式，再关闭，这样会触发推送</li>
+<li>重启手表、重启手机，查看情况</li>
+<li>以上都无效，在系统"Watch"APP 中移除手表上的鱼乐日记，再重新安装</li>
+</ul>
+<p><strong>不支持</strong> ：当前设备不支持与 Apple Watch 通信，正常使用中不会出现此状态</p>
+<p><strong>未连接</strong> ：当前订阅不包含 Apple Watch。订阅 Apple Watch 版后即可在手表上开始记录</p>
+<h3>2. 手表记录结束，数据没有显示在手机 APP 页面</h3>
+<ul>
+<li>数据同步需要一点时间。请保持手机和手表距离接近，打开 iPhone App 后稍作等待即可</li>
+<li>若等待较长时间后仍未出现，可查看设置页面中的手表状态是否正常，若一直无法解决可联系开发人员</li>
+</ul>
+<h3>3. 为什么记录没有计入统计？</h3>
+<ul>
+<li>新创建的记录处于"编辑中"状态，不计入统计。填写完成后点击 <strong>保存</strong>，记录才会计入统计和徽章</li>
+<li>删除的记录不计入统计，删除后无法恢复</li>
+</ul>
+<h3>4. 为什么记录没有天气，或地图上没有位置？</h3>
+<ul>
+<li>记录的位置取自 Apple Watch 路径的中点；没有手表路径时，使用第一张带定位信息的鱼照片的位置</li>
+<li>天气按记录的开始时间和位置获取</li>
+<li>如果照片不含定位，也没有手表路径，记录就没有位置，也无法获取天气</li>
+<li>拍照时请开启相机的定位权限，这样照片才会带有位置信息</li>
+</ul>
+<h3>5. 标点图标上的数字是什么？</h3>
+<p>数字表示还没有命名的标点数量。给这些标点起个名字后，数字就会消失</p>
+<h3>6. 订阅权益消失了</h3>
+<ul>
+<li>订阅绑定您的 App Store 账号。请检查是否已登录购买时使用的 Apple ID，并在订阅页面点击 <strong>恢复购买</strong></li>
+<li>请在系统「设置 →〔你的名字〕→ 订阅」中确认订阅仍在有效期内</li>
+</ul>
+<h3>7. 普通版和 Apple Watch 版有什么区别？</h3>
+<ul>
+<li><strong>普通版</strong> 包含除 Apple Watch 外的全部功能</li>
+<li><strong>Apple Watch 版</strong> 包含全部功能，并支持 Apple Watch 记录</li>
+<li>两档均不限制记录保存数量</li>
+</ul>
+<h3>8. 换手机后数据能找回吗？</h3>
+<ul>
+<li>可以。在本应用「设置 → 基础设置」中打开 <strong>iCloud 备份</strong>（登录 iCloud 后默认开启），已保存的记录、照片、标点和徽章封面会备份到您自己的 iCloud</li>
+<li>在新 iPhone 上登录同一个 iCloud 账号并打开鱼乐日记，数据会自动下载回来</li>
+<li>心率、步数、活动消耗属于健康数据，不通过 iCloud 备份；通过 iCloud 找回的记录，这几项会显示为空（健康 App 中的数据不受影响）</li>
+<li>换机前，请确认旧手机上 iCloud 备份的状态显示为 <strong>已备份</strong></li>
+<li>使用整机迁移（快速开始或 iCloud 整机备份）换机时，数据也会随整机一起迁移</li>
+</ul>
+<h3>9. 多台设备之间会同步吗？</h3>
+<ul>
+<li>在一台设备上新保存的记录，会出现在登录同一 iCloud 的其他设备上</li>
+<li>对已有记录的修改和删除不会同步到其他设备，各设备以本机数据为准</li>
+<li>编辑后没有点保存的内容不会备份</li>
+</ul>
+<h3>10. iCloud 备份显示「已关闭」或「暂时无法备份」</h3>
+<ul>
+<li><strong>暂时无法备份</strong>：多为网络不可用，联网后会自动继续</li>
+<li><strong>iCloud 账号已变更</strong> 或 <strong>云端数据已清除</strong>：备份已自动关闭，本机数据不受影响。重新打开开关并确认后，会把本机数据重新备份</li>
+<li>卸载 App 不会删除 iCloud 中的数据。如需清除，请前往 iPhone 系统「设置」App →「Apple 账户 → iCloud → 管理账户储存空间 → 鱼乐日记 → 删除数据」</li>
+</ul>
+<h2>条款与隐私</h2>
+<ul>
+<li><a href="./catchhook-privacy.html#zh">隐私政策</a></li>
+<li><a href="./catchhook-terms.html#zh">用户协议</a></li>
+</ul></section>
+  <section class="lang" id="en"><h1>CatchHook Support</h1>
+<h2>Contact Us</h2>
+<p>Questions, problems or suggestions? Email us:</p>
+<p><strong>Email:</strong> <a href="mailto:support@liturangler.com">support@liturangler.com</a></p>
+<h2>Frequently Asked Questions</h2>
+<h3>1. What do the Watch statuses mean?</h3>
+<p><strong>Normal</strong> — Your Apple Watch is paired and CatchHook is installed. Everything is working as expected.</p>
+<p><strong>No Watch Paired</strong> — No Apple Watch is paired with this iPhone. Open the system Watch app and complete the pairing process.</p>
+<p><strong>App Not Installed</strong> — Your Apple Watch is paired, but CatchHook is not installed on it. This status may also appear if your Watch just ran out of battery or was turned off — it will return to normal automatically once the Watch is charged and back on. If your Watch is on and the issue persists, try the following steps in order:</p>
+<ul>
+<li>Make sure your Apple Watch is running <strong>watchOS 11 or later</strong>. CatchHook does not support older watchOS versions.</li>
+<li>Keep your iPhone and Apple Watch within 1 meter of each other and wait a moment</li>
+<li>Enable Airplane Mode on both devices simultaneously, then disable it to trigger a re-push</li>
+<li>Restart your Apple Watch, or restart your iPhone</li>
+<li>If none of the above work, open the Watch app on your iPhone, remove CatchHook from your Watch, then reinstall it</li>
+</ul>
+<p><strong>Not Supported</strong> — The current device does not support Apple Watch connectivity. You will not see this status during normal use.</p>
+<p><strong>Not Connected</strong> — Your subscription doesn't include Apple Watch. Subscribe to the Apple Watch Plan to start recordings on your Watch.</p>
+<h3>2. Session data does not appear in the iPhone app after ending a Watch session</h3>
+<ul>
+<li>Data sync may take a moment. Keep your iPhone and Apple Watch close to each other, open the iPhone app, and wait briefly.</li>
+<li>If the data still does not appear after a long wait, check whether the Watch status on the Settings page is normal. If the issue cannot be resolved, contact the developer.</li>
+</ul>
+<h3>3. Why isn't my record counted in the stats?</h3>
+<ul>
+<li>A newly created record is in the <strong>Editing</strong> state and is not counted. Once you've filled it in, tap <strong>Save</strong> — only saved records count toward stats and badges.</li>
+<li>Deleted records are not counted, and deletion cannot be undone.</li>
+</ul>
+<h3>4. Why does my record have no weather, or no location on the map?</h3>
+<ul>
+<li>A record's location is the midpoint of its Apple Watch route. Without a route, the location of the first catch photo that carries location data is used instead.</li>
+<li>Weather is looked up for the record's location at its start time.</li>
+<li>If no photo has a location and there is no Watch route, the record has no location, so weather cannot be fetched.</li>
+<li>Allow the Camera app to use your location so your photos carry location data.</li>
+</ul>
+<h3>5. What does the number on the Spots icon mean?</h3>
+<p>It's the number of spots you haven't named yet. Give them a name and the number goes away.</p>
+<h3>6. My subscription is gone</h3>
+<ul>
+<li>Your subscription is linked to your App Store account. Make sure you're signed in with the Apple ID used for the purchase, then tap <strong>Restore Purchase</strong> on the subscription page.</li>
+<li>Check <strong>Settings → [your name] → Subscriptions</strong> to confirm your subscription is still active.</li>
+</ul>
+<h3>7. What's the difference between the Standard Plan and the Apple Watch Plan?</h3>
+<ul>
+<li>The <strong>Standard Plan</strong> includes every feature except Apple Watch.</li>
+<li>The <strong>Apple Watch Plan</strong> includes every feature, plus Apple Watch recording.</li>
+<li>Neither plan limits how many records you can save.</li>
+</ul>
+<h3>8. Can I get my data back on a new iPhone?</h3>
+<ul>
+<li>Yes. Turn on <strong>iCloud Backup</strong> under Settings → General in the app (it is on by default once you are signed in to iCloud). Your saved trips, photos, spots, and badge covers are backed up to your own iCloud.</li>
+<li>On the new iPhone, sign in to the same iCloud account and open CatchHook; your data downloads automatically.</li>
+<li>Heart rate, steps, and active calories are health data and are not backed up to iCloud; on trips restored from iCloud these show as empty (your data in the Health app is not affected).</li>
+<li>Before switching phones, make sure iCloud Backup on the old phone shows <strong>Backed up</strong>.</li>
+<li>If you move to a new iPhone with Quick Start or a full iCloud device backup, your data moves with it as well.</li>
+</ul>
+<h3>9. Does data sync between my devices?</h3>
+<ul>
+<li>A trip newly saved on one device appears on your other devices signed in to the same iCloud.</li>
+<li>Changes to or deletions of existing trips are not synced; each device keeps its own version.</li>
+<li>Edits you haven't saved are not backed up.</li>
+</ul>
+<h3>10. iCloud Backup says "Off" or "Can't back up right now"</h3>
+<ul>
+<li><strong>Can't back up right now</strong>: usually no network connection; backup resumes once you are online.</li>
+<li><strong>iCloud account changed</strong> or <strong>iCloud data was deleted</strong>: backup turned itself off and the data on this device is not affected. Turn the switch back on and confirm to back up this device's data again.</li>
+<li>Uninstalling the app does not delete your data in iCloud. To delete it, open the iPhone Settings app and go to Apple Account → iCloud → Manage Account Storage → CatchHook → Delete Data.</li>
+</ul>
+<h2>Terms &amp; Privacy</h2>
+<ul>
+<li><a href="./catchhook-privacy.html#en">Privacy Policy</a></li>
+<li><a href="./catchhook-terms.html#en">Terms of Service</a></li>
+</ul></section>
+</div>
+</body>
+</html>
