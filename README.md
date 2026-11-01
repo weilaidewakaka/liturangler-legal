@@ -1,6 +1,6 @@
 # LiturAngler Legal Docs
 
-Static hosting for the Privacy Policy, Terms of Service, and Support pages required by App Store Connect for Litura, CastCount, CatchHook and CrossHere.
+Static hosting for the Privacy Policy, Terms of Service, and Support pages required by App Store Connect for Litura, CastCount, CatchHook, CrossHere and 纳瓦尔之路.
 
 Kept separate from [liturangler.com](https://www.liturangler.com) so the marketing site can be rebuilt independently without affecting the URLs registered with Apple.
 
@@ -16,5 +16,8 @@ Served via GitHub Pages from this repo's `main` branch.
 - `crosshere-privacy.html` — CrossHere（来此合影）
 - `crosshere-terms.html` — includes the zero-tolerance clause users agree to before posting (Guideline 1.2)
 - `crosshere-support.html` — contact email, report/block instructions, FAQ
+- `lossjob-privacy.html` — 纳瓦尔之路 (internal name lossjob), generated from the app's in-app `privacy-policy.md`
+- `lossjob-terms.html` — generated from the app's in-app `terms-of-service.md`
+- `lossjob-support.html` — contact email plus the app's in-app `faq.md`
 
 Litura's Terms of Service has no real page yet (`litura-support.html` links to it as "coming soon") — needs to be written and added before it's referenced anywhere as final.
